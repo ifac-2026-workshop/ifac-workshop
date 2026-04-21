@@ -1,0 +1,183 @@
+/* General Page Settings */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f9;
+    color: #222;
+}
+
+/* Logo Header */
+.header-logo {
+    text-align: center;
+    background: white;
+    padding: 20px 0;
+}
+
+/* Logo */
+.logo {
+    width: 200px;
+    height: auto;
+}
+
+/* Hero Section */
+.hero {
+    background: #1f3c88;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+}
+
+.hero h2 {
+    font-size: 22px;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Section Container */
+.section {
+    background: white;
+    margin: 20px auto;
+    padding: 35px;
+    max-width: 950px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.section h2 {
+    color: #1f3c88;
+    border-left: 5px solid #1f3c88;
+    padding-left: 10px;
+}
+
+/* Table Styling */
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background: #1f3c88;
+    color: white;
+}
+
+/* ========================= */
+/* SPEAKER SECTION (UPDATED) */
+/* ========================= */
+
+.speaker-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #eef3ff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+    border-left: 5px solid #1f3c88;
+}
+
+.speaker-text {
+    flex: 2;
+    padding-right: 20px;
+}
+
+/* 🔥 IMAGE SIZE CONTROL */
+.speaker-photo img {
+    width: 140px;        /* change this to resize */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+/* 📱 Mobile Fixes */
+@media (max-width: 600px) {
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .hero h2 {
+        font-size: 18px;
+    }
+
+    .hero p {
+        font-size: 15px;
+    }
+
+    .section {
+        padding: 20px;
+    }
+
+    /* Speaker mobile layout */
+    .speaker-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .speaker-text {
+        padding-right: 0;
+    }
+
+    .speaker-photo img {
+        width: 100px;
+        margin-top: 10px;
+    }
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    background: #1f3c88;
+    color: white;
+    padding: 15px;
+    margin-top: 40px;
+}
+.btn {
+    background: #ffcc00;
+    color: #000;
+    padding: 12px 28px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.btn:hover {
+    background: #e6b800;
+}
+.btn {
+    background: #ffcc00;
+    color: black;
+    padding: 14px 30px;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background: #ffd633;
+    transform: scale(1.05);
+}
