@@ -181,3 +181,12 @@ th {
     background: #ffd633;
     transform: scale(1.05);
 }
+.banner {
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
