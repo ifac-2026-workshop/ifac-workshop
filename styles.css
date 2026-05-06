@@ -192,7 +192,7 @@ th {
 }
 .banner img {
     width: 100%;
-    max-width: 900px;   /* controls maximum size */
+    max-width: 600px;   /* controls maximum size */
     height: auto;
     display: block;
     margin: 20px auto;  /* centers the image */
